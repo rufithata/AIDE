@@ -1,0 +1,31 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<div class="rainbow-header-banner text-color-primary">
+    <div class="header-label rainbow-header-banner-padding">My Dashboard</div>
+  </div>
+  <div class="align" >
+    <div>
+        <h1>Start Speaking</h1>
+        <p>Click the microphone icon and speak</p>
+        <p>
+            Ex: create new entity.
+        </p>
+            <i class="material-icons" style="font-size:36px;cursor: pointer;" (click)="startService()">mic</i>
+            <i class="material-icons" style="font-size:36px;cursor: pointer;" (click)="stopService()">mic_off</i>
+        <div>
+            {{service.text}}
+            <div *ngIf="service.text === ' create new entity'">
+               
+                <app-home-quick-actions>
+                </app-home-quick-actions>
+            </div>
+            <div style="padding-top: 20px;" *ngIf="service.text === ' what is the quick ratio for ABC Corporation'">
+                <!--hardcoded for the time being need to integrate debt ratio from API -->
+                <span class="popuptext">Quick ratio is 176.8.</span>
+            </div>
+            <div *ngIf="service.text === ' create a new entity with name ABC corporation and tax ID 1234'">
+                
+                <app-home-recent-entities>
+                </app-home-recent-entities>
+        </div>
+    </div>  
+</div>

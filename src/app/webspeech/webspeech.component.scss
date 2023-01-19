@@ -1,0 +1,74 @@
+.rainbow-header-banner {
+    width: 100%;
+    height: 141px;
+    background: transparent linear-gradient(273deg,#0A0014 0%,#2D0459 51%,#4E0057 100%) 0% 0% no-repeat padding-box;
+    color:255, 255, 255;
+}
+
+.header-label {
+    color:rgb(255, 255, 255);
+  font-size: 14px;
+  font: 300 28px/37px Roboto,Helvetica Neue,sans-serif;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.overlapped-card {
+    margin-top: 0;
+    margin-left: -1px;
+    margin-right: -2px;
+  }
+.recent-entities {
+    max-width: 900px;
+    height: calc(100vh - 165px);
+  }
+  .overlapped-card.quick-action-widget.quick-flow{
+    margin-right: 24px;
+    margin-left: -12px;
+  }
+  .quick-flow {
+    max-width: 449px !important;
+    height: 184px;
+  }
+  table, th, td {
+    border:1px solid black;
+  }
+  .align{
+    // background-color: rgb(214, 185, 240);
+    height:auto;
+    text-align: center;
+  }
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #a5a8a7;
+    color: white;
+  }
+
+
+.popuptext {
+  border: 2px solid rgb(106, 105, 105);
+  background-color: #e8d5ea;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+
+
+
+
